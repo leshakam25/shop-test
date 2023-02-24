@@ -1,0 +1,28 @@
+mat-card {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: white;
+  font-weight: 600;
+  }
+
+.card-footer{
+  background: rgba(82, 82, 82, 0.9);
+  padding: 4px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  button {
+    color: inherit;
+  }
+  .through-price{
+    text-decoration: line-through;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 12px;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}

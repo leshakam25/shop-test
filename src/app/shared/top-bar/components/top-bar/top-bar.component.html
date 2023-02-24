@@ -1,0 +1,56 @@
+<mat-toolbar class="top-bar-container">
+  <mat-toolbar-row class="first-row">
+    <div class="first-row-link">
+      <a href="#">
+        <span class="material-symbols-outlined">
+          mail
+        </span>
+        support@deepmag.ru
+      </a>
+      <a href="#">
+        <span class="material-symbols-outlined">
+          call
+        </span>
+        +7 (919)-123-45-56
+      </a>
+      <a href="#">
+        <span class="material-symbols-outlined">
+          perm_phone_msg
+        </span>
+        Напишите нам в WhatsApp
+      </a>
+    </div>
+    <a href="#">
+      <span class="material-symbols-outlined">
+        masks
+      </span>
+      Бесконтактная доставка
+    </a>
+  </mat-toolbar-row>
+  <mat-toolbar-row class="second-row">
+    <img src="/assets/logos/logo.svg" alt="no logo">
+    <mat-form-field class="search-field">
+      <mat-label>ПОИСК</mat-label>
+      <input matInput type="text" [(ngModel)]="value">
+    </mat-form-field>
+    <ng-container>
+      <div class="second-row-link">
+        <button mat-flat-button>Вход/регистрация
+          <span class="material-symbols-outlined">
+          login
+        </span>
+        </button>
+        <button mat-icon-button>
+        <span class="material-symbols-outlined">
+          favorite
+        </span>
+        </button>
+        <button mat-icon-button>
+        <span class="material-symbols-outlined">
+          shopping_cart
+        </span>
+        </button>
+      </div>
+    </ng-container>
+  </mat-toolbar-row>
+</mat-toolbar>
